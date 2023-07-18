@@ -12,14 +12,13 @@ export const InitialsLogoWrapper = styled.div`
   padding: 1.5rem 3.5rem;
 `;
 
-export const InitialsLogo = styled.h3`
-font-family: "Gloock", sans-serif;
-  color: #ededed;
-  font-size: 2rem;
+export const InitialsLogo = styled.img`
+  width: 3.5rem;
 `;
 
 export const NavbarWrapper = styled.nav`
-  padding: 1.5rem 3.5rem;
+  max-width: 33rem;
+  padding: 1.5rem 4.5rem;
   align-items: center;
   display: flex;
 `;
@@ -42,7 +41,7 @@ export const Anchor = styled.a`
   cursor: pointer;
   color: #ededed;
 
-  &:hover { 
+  &:hover {
     transition: 0.2s;
     text-decoration: underline;
     color: #ededed;

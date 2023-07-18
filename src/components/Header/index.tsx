@@ -5,13 +5,10 @@ const Header = () => {
     <>
       <S.HeaderWrapper>
         <S.InitialsLogoWrapper>
-          <S.InitialsLogo>HM¨</S.InitialsLogo>
+          <S.InitialsLogo src="/logo.png" />
         </S.InitialsLogoWrapper>
         <S.NavbarWrapper>
           <S.ListItems>
-            <S.Item>
-              <S.Anchor href="/">HOME</S.Anchor>
-            </S.Item>
             <S.Item>
               <S.Anchor href="/">SOBRE NÓS</S.Anchor>
             </S.Item>
