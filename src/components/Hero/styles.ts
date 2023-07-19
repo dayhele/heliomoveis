@@ -23,6 +23,8 @@ export const ContentWrapper = styled.div`
 
 export const Title = styled.h1`
   color: #ededed;
+  font-weight: 400;
+  text-transform: uppercase;
   letter-spacing: 4px;
   font-family: "Gloock", sans-serif;
   font-size: 42px;
@@ -39,4 +41,18 @@ export const Subtitle = styled.p`
   margin-right: 1%;
   animation: ease-in-hero-text-h3 cubic-bezier(0, 0, 0.58, 1) 1.9s forwards;
   text-align: center;
+`;
+
+export const CursorIconWrapper = styled.div`
+  bottom: 12%;
+  position: absolute;
+`;
+
+export const CursorIcon = styled.img`
+  width: 4rem;
+`;
+
+export const ButtonScroll = styled.a`
+  text-decoration: none;
+  cursor: pointer;
 `;
