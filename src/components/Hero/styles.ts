@@ -28,7 +28,6 @@ export const Title = styled.h1`
   letter-spacing: 4px;
   font-family: "Gloock", sans-serif;
   font-size: 42px;
-  animation: ease-in-hero-text-h2 cubic-bezier(0, 0, 0.58, 1) 1.8s forwards;
 `;
 
 export const Subtitle = styled.p`
@@ -39,7 +38,6 @@ export const Subtitle = styled.p`
   font-family: "Lato", sans-serif;
   letter-spacing: 1.5px;
   margin-right: 1%;
-  animation: ease-in-hero-text-h3 cubic-bezier(0, 0, 0.58, 1) 1.9s forwards;
   text-align: center;
 `;
 

@@ -9,7 +9,7 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const InitialsLogoWrapper = styled.div`
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 6.5rem 0 6.5rem
 `;
 
 export const InitialsLogo = styled.img`
@@ -18,7 +18,7 @@ export const InitialsLogo = styled.img`
 
 export const NavbarWrapper = styled.nav`
   max-width: 33rem;
-  padding: 1.5rem 4.5rem;
+  padding: 1.5rem 6.5rem 0 6.5rem;
   align-items: center;
   display: flex;
 `;
@@ -32,8 +32,10 @@ export const ListItems = styled.ul`
 
 export const Item = styled.li`
   list-style: none;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
 `;
 
 export const Anchor = styled.a`
